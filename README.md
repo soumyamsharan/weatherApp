@@ -9,6 +9,7 @@ Get ready for any forecast
   - [File Structure](#file-structure)
 - [Installation](#installation)
 - [Usage](#usage)
+- [API Integration](#api-integration)
 - [Screenshots](#screenshots)
 - [Author](#author)
 
@@ -41,8 +42,18 @@ This project is a web-based weather application that provides real-time weather 
 - Enter the name of the city or place in the search bar.
 - Click the search button to get the current weather details.
 
-## Screenshots
+## API Integration
+This application uses the OpenWeatherMap API to fetch weather data. To run this application, you need to get an API key from the OpenWeatherMap API provider.
+1) Sign up on OpenWeatherMap API provider and get your API key.
+2) Replace the 'YOUR_API_KEY' placeholder in your JavaScript code with your actual API key:
+   ```markdown
+   const apiKey = 'YOUR_API_KEY';
+   ```
 
+## Screenshots
+<img src = "https://github.com/soumyamsharan/weatherApp/blob/main/images/weatherDelhi.png" width = "600"/>
+<img src = "https://github.com/soumyamsharan/weatherApp/blob/main/images/weatherMumbai.png" width = "600"/>
+<img src = "https://github.com/soumyamsharan/weatherApp/blob/main/images/weatherbbsr.png" width = "600"/>
 
 ## Author
 [Soumyam Sharan](https://github.com/soumyamsharan)
